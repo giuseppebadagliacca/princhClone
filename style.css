@@ -1,0 +1,89 @@
+*{
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+/* util */
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.flex-space{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#container{
+    border: 2px solid forestgreen;
+    padding: 0 11rem;
+
+}
+/* navbar */
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    border-bottom: #0c9DD9 5px solid;
+    padding: .75rem;
+}
+
+
+
+nav ul li{
+    list-style: none;
+    font-size: 17px;
+    padding: 0px 7px 2px;
+}
+
+.navNum{
+    background-color: #0c9DD9;
+    color: white;
+    margin-right: .5rem;
+}
+
+/* whitespace */
+#whiteSpace{
+    height: 3rem;
+}
+
+/* Main App */
+
+#mainApp{
+    background-color: #F9F9F9;
+    height: 60vh;
+    /* border: 2px solid purple; */
+}
+
+img{
+    width: auto;
+    height: 5rem;
+}
+
+#mainApp input{
+    border: 1px solid #8F8F8F;
+    background-color: rgba(255, 255, 255, 0.60);
+    border-radius: 20px;
+    width: 82px;
+    height: 82px;
+    outline: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
