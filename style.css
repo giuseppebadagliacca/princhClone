@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
 *{
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
     font-weight: 300;
@@ -24,10 +24,9 @@
 }
 
 #container{
-    border: 2px solid forestgreen;
     padding: 0 15%;
-
 }
+
 /* navbar */
 nav ul{
     display: flex;
@@ -44,6 +43,7 @@ nav ul li{
     list-style: none;
     font-size: 17px;
     padding: 0px 7px 2px;
+    
 }
 
 nav ul li i {
@@ -65,8 +65,7 @@ nav ul li i {
 
 #mainApp{
     background-color: #F9F9F9;
-    height: 50vh;
-    /* border: 2px solid purple; */
+    height: 40vh;
 }
 
 img{
@@ -81,14 +80,18 @@ img{
     width: 82px;
     height: 82px;
     outline: none;
-    font-size: 70px;
+    font-size: 40px;
+    font-weight: 400;
     color: #00577b;
     text-align: center;
 }
 
-#mainApp input:hover, #mainApp input:focus{
+#mainApp input:hover{
     border: 2.2px solid navy;
-    color: #00577b;
+}
+
+#mainApp input:focus{
+    border: 2.2px solid #0c9dd9;;
 }
 
 /* button div */
@@ -96,7 +99,6 @@ img{
 #enter{
     padding: 10px;
     color: #00577B;
-    /* border: 2px solid red; */
     margin-bottom: 60px;
 }
 
@@ -113,4 +115,12 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
+}
+
+button{
+ background: #fff;
+ border: none;
+ padding: 0 5px;
+ font-size: 20px;
+ font-weight: 600;
 }

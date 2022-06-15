@@ -16,7 +16,7 @@
         <li><i class="fa-solid fa-1"></i>PRINT CART</li>
         <li><i class="fa-solid fa-2"></i>PAYMENT</li>
         <li><i class="fa-solid fa-3"></i>PRINT</li>
-        <li><span>English</span></li>
+        <button type="button" data-toggle="dropdown">English <i class="fa-solid fa-chevron-down"></i></button>
     </ul>
 </nav>
 <!-- white space -->
@@ -27,7 +27,7 @@
 
     <!-- logo --> 
 <img src="https://print.princh.com/img/logos/princh-logo.svg" alt="princhLogo">
-<div class="flex-col" id="enter">
+<div id="enter">
     <!--Instructions  -->
     <div><h1 class=".flex-col">Please select your printer by entering a printer-ID</h1></div>
     
@@ -38,7 +38,7 @@
         <input id="3" onKeyup = "jump(this, '4')" type="number" maxlength="1" autofocus>
         <input id="4" onKeyup = "jump(this, '5')" type="number" maxlength="1" autofocus>
         <input id="5" onKeyup = "jump(this, '6')" type="number" maxlength="1" autofocus>
-        <input type="number" maxlength="1" autofocus>
+        <input id="6" onKeyup = "moveOn()" type="number" maxlength="1" autofocus>
     </div>
     <!-- Small Instructions -->
     <div><h3 class=".flex-col">The printer-ID is shown on the printing guide near the printer</h3></div>
@@ -47,3 +47,4 @@
 <script src="/app.js"></script>
 </body>
 </html>
+
