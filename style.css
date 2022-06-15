@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
 *{
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-weight: 300;
     padding: 0;
     margin: 0;
+    /* border: 2px solid red; */
 }
 /* util */
 .flex-col{
@@ -36,13 +39,16 @@ nav ul{
 }
 
 nav ul li{
+    color: #979797;
+    font-weight: 600;
     list-style: none;
     font-size: 17px;
     padding: 0px 7px 2px;
 }
 
 nav ul li i {
-    border: 1px solid red;
+    color: #0c9dd9;
+    border: 1px solid #0c9dd9;
     border-radius: 100%;
     padding: .7rem;
     margin: .3rem;
@@ -59,7 +65,7 @@ nav ul li i {
 
 #mainApp{
     background-color: #F9F9F9;
-    height: 60vh;
+    height: 50vh;
     /* border: 2px solid purple; */
 }
 
@@ -77,6 +83,18 @@ img{
     outline: none;
 }
 
+/* button div */
+
+#enter{
+    padding: 10px;
+    color: #00577B;
+    /* border: 2px solid red; */
+    margin-bottom: 60px;
+}
+
+#enter div{
+    padding: 10px 0;
+}
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
