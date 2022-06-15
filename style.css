@@ -25,7 +25,7 @@
 
 #container{
     border: 2px solid forestgreen;
-    padding: 0 11rem;
+    padding: 0 15%;
 
 }
 /* navbar */
@@ -81,6 +81,14 @@ img{
     width: 82px;
     height: 82px;
     outline: none;
+    font-size: 70px;
+    color: #00577b;
+    text-align: center;
+}
+
+#mainApp input:hover, #mainApp input:focus{
+    border: 2.2px solid navy;
+    color: #00577b;
 }
 
 /* button div */
